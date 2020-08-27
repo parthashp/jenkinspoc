@@ -18,9 +18,9 @@ pipeline {
                 echo 'Deploying....'
             }
         }
-        stage('Prod_Deploy') {
+        stage('Prod_Deploy_new') {
             steps {
-                echo 'Deploying Production....'
+                echo 'Deploying New Production environment....'
             }
         }
     }
